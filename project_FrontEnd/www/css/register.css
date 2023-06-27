@@ -1,0 +1,55 @@
+body {
+  background-image: url("/image/bgrk.jpg");
+  background-image: 100%;
+  font-family: Arial, sans-serif;
+  padding: 50px;
+}
+
+.register-container {
+  max-width: 400px;
+  margin: 130px auto;
+  padding: 30px;
+  border: 1px solid #79edfa;
+  border-radius: 15px;
+  background-color: #79edfa;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.register-container h2 {
+  text-align: center;
+  margin-bottom: 30px;
+  color: #000000;
+}
+
+.form-group {
+  margin-bottom: 25px;
+}
+
+.form-group label {
+  font-weight: bold;
+  color: #000000;
+}
+
+.form-group input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.btn-register {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  font-weight: bold;
+  background-color: #007bff;
+  border: none;
+  color: #ffffff;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.btn-register:hover {
+  background-color: #002449;
+}
